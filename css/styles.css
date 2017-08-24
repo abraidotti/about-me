@@ -1,0 +1,42 @@
+* {
+	/*changes default box dimensions
+	calculation to include border*/
+	box-sizing: border-box;
+}
+
+body {
+	font: normal 16px Arial, Helvetica;
+	background-color: #FFFFFF;
+}
+
+/*nav mods*/
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.my-nav-btn {
+	background-color: #1687AF;
+	border: 0;
+  color: white;
+}
+
+/*main area mods*/
+
+.main-about-me {
+	height: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.img-profile {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.footer {
+  position: absolute;
+  background-color: #FFFFFF;
+  text-align: right;
+ }
