@@ -14,12 +14,12 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-
+  <script type="text/javascript" src="js/gallery.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
-<body>
+<body onLoad="showSlides()">
 
 	<div class="container">
 	
@@ -35,14 +35,87 @@
 				    <a href="projects.html" class="btn navbar-btn disabled my-nav-btn">Projects</a>
 				  	<a href="about.html" class="btn navbar-btn my-nav-btn">About me</a>
 				  	<a href="blog.html" class="btn navbar-btn my-nav-btn">Blog</a>
-				  	<a href="gallery1.html" class="btn navbar-btn my-nav-btn">Gallery 1</a>
-				  	<a href="gallery2.html" class="btn navbar-btn my-nav-btn">Gallery 2</a>
+				  	<a href="gallery.html" class="btn navbar-btn my-nav-btn">Gallery</a>
 		  </div>
 		</nav>
 
 		<!-- main content starts here -->
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 9</div>
+      <img src="images/Micio1.jpg" style="width:100%">
+      <div class="text">First Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 9</div>
+      <img src="images/Micio2.jpg" style="width:100%">
+      <div class="text">Second Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 9</div>
+      <img src="images/Micio3.jpg" style="width:100%">
+      <div class="text">Third Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 9</div>
+      <img src="images/Micio4.jpg" style="width:100%">
+      <div class="text">Fourth Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 9</div>
+      <img src="images/Micio5.jpg" style="width:100%">
+      <div class="text">Fifth Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">6 / 9</div>
+      <img src="images/Micio6.jpg" style="width:100%">
+      <div class="text">Sixth Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">7 / 9</div>
+      <img src="images/Micio7.jpg" style="width:100%">
+      <div class="text">Seventh Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">8 / 9</div>
+      <img src="images/Micio8.jpg" style="width:100%">
+      <div class="text">Eigth Micio</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">9 / 9</div>
+      <img src="images/Micio9.jpg" style="width:100%">
+      <div class="text">Ninth Micio</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+    <span class="dot" onclick="currentSlide(6)"></span> 
+    <span class="dot" onclick="currentSlide(7)"></span> 
+    <span class="dot" onclick="currentSlide(8)"></span> 
+    <span class="dot" onclick="currentSlide(9)"></span>  
+  </div>
+
 		<div class="container">
-			<p class="display-4 text-center">For Gallery 1, I adopted W3 School's <a href="https://www.w3schools.com/css/css_image_gallery.asp">image gallery template.</a></p>
 
 			<hr>
 		  
